@@ -35,7 +35,7 @@ The Microsoft Power BI visuals project provides high quality data visualizations
 
 | [Text Wrapper](https://github.com/bandaruabinash/PowerBI-visuals/blob/master/src/Text%20Wrapper/src/visual.ts)   |
 |----------|
-| Text Wrapper wrap a static text &nbsp;&nbsp;&nbsp;&nbsp;<br /> string (Statement) along with a &nbsp;&nbsp;&nbsp;&nbsp;<br /> dynamic text field value which was &nbsp;<br /> taken as an input from the dataset. <br /> This dynamic field value will update <br /> according to the selected &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br /> filter/slicer keeping the static &nbsp;&nbsp;&nbsp;<br /> text intact. The static string needs <br /> to be provided by the user which &nbsp;&nbsp;&nbsp;<br /> will be appended as “ : <>” after &nbsp;&nbsp;<br /> the dynamic field value in the &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br /> visual resulting the final value in <br /> the visual as: “<> : <>” &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br /><img src="https://camo.githubusercontent.com/..." data-canonical-src="https://raw.githubusercontent.com/maqsoftware/PowerBI-visuals/master/documents/Text%20Wrapper/Images/Screenshot.png" width="200" height="400" /> ![Text Wrapper](https://raw.githubusercontent.com/maqsoftware/PowerBI-visuals/master/documents/Text%20Wrapper/Images/Screenshot.png ) | 
+| Text Wrapper wrap a static text &nbsp;&nbsp;&nbsp;&nbsp;<br /> string (Statement) along with a &nbsp;&nbsp;&nbsp;&nbsp;<br /> dynamic text field value which was &nbsp;<br /> taken as an input from the dataset. <br /> This dynamic field value will update <br /> according to the selected &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br /> filter/slicer keeping the static &nbsp;&nbsp;&nbsp;<br /> text intact. The static string needs <br /> to be provided by the user which &nbsp;&nbsp;&nbsp;<br /> will be appended as “ : <>” after &nbsp;&nbsp;<br /> the dynamic field value in the &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br /> visual resulting the final value in <br /> the visual as: “<> : <>” &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br /><img src="https://raw.githubusercontent.com/maqsoftware/PowerBI-visuals/master/documents/Text%20Wrapper/Images/Screenshot.png" alt="Smiley face" height="42" width="42"> | 
 
 <br />
 <br />
@@ -97,6 +97,4 @@ That's it you are good to go. You can see that the visual is running.
 ### Copyrights
 
 Copyright (c) 2017 Microsoft and MAQ Software
-![](https://gyazo.com/eb5c5741b6a9a16c692170a41a49c858.png | width=100)
-![](https://gyazo.com/eb5c5741b6a9a16c692170a41a49c858.png =250x250)
 See the [LICENSE](/LICENSE) file for license rights and limitations (MIT).
