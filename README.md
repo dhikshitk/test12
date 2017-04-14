@@ -99,3 +99,4 @@ That's it you are good to go. You can see that the visual is running.
 Copyright (c) 2017 Microsoft and MAQ Software
 
 See the [LICENSE](/LICENSE) file for license rights and limitations (MIT).
+![](https://gyazo.com/eb5c5741b6a9a16c692170a41a49c858.png | width=100)
