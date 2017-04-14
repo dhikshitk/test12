@@ -25,3 +25,75 @@ The Microsoft Power BI visuals project provides high quality data visualizations
 | [Donut Chart(GMO)](https://github.com/maqsoftware/PowerBI-visuals/blob/master/src/Clients/CustomVisuals/visuals/donutChart(GMO)/donutChart(GMO).ts)   |      [JSON Grid](https://github.com/bandaruabinash/PowerBI-visuals/blob/master/src/Clients/CustomVisuals/visuals/grid/GridNode/src/jsonGrid.js)     |  [Thermometer](https://github.com/bandaruabinash/PowerBI-visuals/blob/master/src/Clients/CustomVisuals/visuals/thermometer/Thermometer/src/visual.ts) |
 |----------|------------|------|
 | A doughnut charts represent data as slices, where the size of each slice is determined by the slice value relative to the sum of the values of all slices. Each data series that you plot in a doughnut chart adds a ring to the chart. These rings have different colors for easy representation of the data slices in doughnut chart.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br />![Donut Chart](https://raw.githubusercontent.com/maqsoftware/PowerBI-visuals/master/src/Clients/CustomVisuals/visuals/donutChart(GMO)/Images/DonutChart_Screenshot_410_424.png) | Grid allows you to add a paginated grid on the report. It allows you to specify on which column should the grid be sorted by default and in which order. It also allows you to call an API on any column if further processing needs to be done. goals.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br /><br /><br /><br />![Grid](https://github.com/maqsoftware/PowerBI-visuals/blob/master/src/Clients/CustomVisuals/visuals/grid/GridNode/assets/screenshot.png) | Thermometer is used to represent data in thermometer. It could be a good way to represent data when you have the actual value and the target value (maximum threshold). needs.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br /><br /><br /><br /><br />![Thermometer](https://github.com/maqsoftware/PowerBI-visuals/blob/master/src/Clients/CustomVisuals/visuals/thermometer/Images/Thermometer_icon_424_410.jpg) |
+
+
+<br />
+<br />
+<br />
+| [Text Wrapper](https://github.com/bandaruabinash/PowerBI-visuals/blob/master/src/Text%20Wrapper/src/visual.ts)  |
+|----------|
+| Text Wrapper wrap a static text <br />string (Statement) along with a <br />dynamic text (field value which <br />was taken as an input (from the <br />dataset. This dynamic field <br />(value will update according to<br /> the selected (filter/slicer keeping the<br /> static text intact.( The static<br /> string needs to be provided by <br />the (user which will be appended<br /> as “ : <>” after the (dynamic field<br /> value in the visual resulting the<br /> final value( in the visual <br />as: “<> : <>”|
+
+
+<br />
+<br />
+
+# PowerBI Visual Tools (pbiviz) - Installation
+
+Before you can get started you'll need to install the tools. This should only take a few seconds.
+
+## Dependencies
+
+Before you can run (or install) the command line tools you must install NodeJS.
+
+* NodeJS 4.0+ Required (5.0 recommended) - [Download NodeJS](https://nodejs.org)
+
+
+## Installation
+[![Npm Version](https://img.shields.io/npm/v/powerbi-visuals-tools.svg?style=flat)](https://www.npmjs.com/package/powerbi-visuals-tools)
+[![Npm Downloads](https://img.shields.io/npm/dm/powerbi-visuals-tools.svg?style=flat)](https://www.npmjs.com/package/powerbi-visuals-tools)  
+To install the command line tools simply run the following command
+
+```bash
+npm install -g powerbi-visuals-tools
+```
+
+To confirm it was installed correctly you can run the command without any paremeters which should display the help screen.
+
+```bash
+pbiviz
+```
+
+## Server certificate setup
+
+To enable live preview visual assets need to be served on a trusted https server so before you can start you need to install an ssl certificate which will allow visual asssets to load in your web browser. This is a one time setup.
+
+* [How to install the local SSL certificates](https://github.com/Microsoft/PowerBI-visuals/blob/master/tools/CertificateSetup.md) 
+
+## Enable developer visual
+
+To view/test your visual in PowerBI you need to enable the development visual and then you can add it to any report.
+
+* [How to enable the developer visual in PowerBI](https://github.com/Microsoft/PowerBI-visuals/blob/master/tools/DebugVisualSetup.md)
+
+# Running the visuals in this repository 
+Select the visual you want to run. Navigate to the root of visual project (the directory containing `pbiviz.json`). Simply run the following commands
+
+```bash
+#This will install modules listed in package.json
+npm install 
+
+#This will install type definitions listed in typings.json
+typings install 
+
+#To run the visual
+pbiviz start
+```
+
+That's it you are good to go. You can see that the visual is running.
+
+### Copyrights
+
+Copyright (c) 2017 Microsoft and MAQ Software
+
+See the [LICENSE](/LICENSE) file for license rights and limitations (MIT).
