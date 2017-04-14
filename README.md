@@ -39,10 +39,7 @@ The Microsoft Power BI visuals project provides high quality data visualizations
 
 <br />
 <br />
-| [Text Wrapper](https://github.com/bandaruabinash/PowerBI-visuals/blob/master/src/Text%20Wrapper/src/visual.ts)   |
-|----------|
-| Text Wrapper wrap a static text string (Statement) along with a dynamic text (field value which was taken as an input (from the dataset. This dynamic field (value will update according to the selected (filter/slicer keeping the static text intact.( The static string needs to be provided by the (user which will be appended as “ : <>” after the (dynamic field value in the visual resulting the final value( in the visual <br />as: “<> : <>” | 
-<br /><br /><br />
+
 # PowerBI Visual Tools (pbiviz) - Installation
 
 Before you can get started you'll need to install the tools. This should only take a few seconds.
@@ -102,3 +99,9 @@ That's it you are good to go. You can see that the visual is running.
 Copyright (c) 2017 Microsoft and MAQ Software
 
 See the [LICENSE](/LICENSE) file for license rights and limitations (MIT).
+
+
+<br />
+| [Text Wrapper](https://github.com/bandaruabinash/PowerBI-visuals/blob/master/src/Text%20Wrapper/src/visual.ts)   |
+|----------|
+| Text Wrapper wrap a static text <br />string (Statement) along with a <br />dynamic text (field value which <br />was taken as an input (from the <br />dataset. This dynamic field <br />(value will update according to<br /> the selected (filter/slicer keeping the<br /> static text intact.( The static<br /> string needs to be provided by <br />the (user which will be appended<br /> as “ : <>” after the (dynamic field<br /> value in the visual resulting the<br /> final value( in the visual <br />as: “<> : <>” | 
