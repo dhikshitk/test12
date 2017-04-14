@@ -33,9 +33,9 @@ The Microsoft Power BI visuals project provides high quality data visualizations
 <br />
 <br />
 
-| [Donut Chart(GMO)](https://github.com/maqsoftware/PowerBI-visuals/blob/master/src/Clients/CustomVisuals/visuals/donutChart(GMO)/donutChart(GMO).ts)   |
+| [Text Wrapper](https://github.com/bandaruabinash/PowerBI-visuals/blob/master/src/Text%20Wrapper/src/visual.ts)   |
 |----------|
-| A doughnut charts represent data as slices, where the size of each slice is determined by the slice value relative to the sum of the values of all slices. Each data series that you plot in a doughnut chart adds a ring to the chart. These rings have different colors for easy representation of the data slices in doughnut chart.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br />![Donut Chart](https://raw.githubusercontent.com/maqsoftware/PowerBI-visuals/master/src/Clients/CustomVisuals/visuals/donutChart(GMO)/Images/DonutChart_Screenshot_410_424.png) | 
+| Text Wrapper wrap a static text <br />string (Statement) along with a <br />dynamic text (field value which <br />was taken as an input (from the <br />dataset. This dynamic field <br />(value will update according to<br /> the selected (filter/slicer keeping the<br /> static text intact.( The static<br /> string needs to be provided by <br />the (user which will be appended<br /> as “ : <>” after the (dynamic field<br /> value in the visual resulting the<br /> final value( in the visual <br />as: “<> : <>” | 
 
 <br />
 <br />
